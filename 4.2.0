@@ -1,0 +1,20 @@
+Collecting nbformat
+  Downloading nbformat-5.8.0-py3-none-any.whl (77 kB)
+     ---------------------------------------- 77.4/77.4 kB 1.4 MB/s eta 0:00:00
+Collecting fastjsonschema (from nbformat)
+  Downloading fastjsonschema-2.16.3-py3-none-any.whl (23 kB)
+Collecting jsonschema>=2.6 (from nbformat)
+  Downloading jsonschema-4.17.3-py3-none-any.whl (90 kB)
+     ---------------------------------------- 90.4/90.4 kB 2.6 MB/s eta 0:00:00
+Requirement already satisfied: jupyter-core in c:\users\91809\desktop\flask\microblog\venv\lib\site-packages (from nbformat) (5.3.0)
+Requirement already satisfied: traitlets>=5.1 in c:\users\91809\desktop\flask\microblog\venv\lib\site-packages (from nbformat) (5.9.0)
+Collecting attrs>=17.4.0 (from jsonschema>=2.6->nbformat)
+  Downloading attrs-23.1.0-py3-none-any.whl (61 kB)
+     ---------------------------------------- 61.2/61.2 kB 3.4 MB/s eta 0:00:00
+Collecting pyrsistent!=0.17.0,!=0.17.1,!=0.17.2,>=0.14.0 (from jsonschema>=2.6->nbformat)
+  Downloading pyrsistent-0.19.3-cp39-cp39-win_amd64.whl (62 kB)
+     ---------------------------------------- 62.7/62.7 kB 1.7 MB/s eta 0:00:00
+Requirement already satisfied: platformdirs>=2.5 in c:\users\91809\desktop\flask\microblog\venv\lib\site-packages (from jupyter-core->nbformat) (3.5.1)
+Requirement already satisfied: pywin32>=300 in c:\users\91809\desktop\flask\microblog\venv\lib\site-packages (from jupyter-core->nbformat) (306)
+Installing collected packages: fastjsonschema, pyrsistent, attrs, jsonschema, nbformat
+Successfully installed attrs-23.1.0 fastjsonschema-2.16.3 jsonschema-4.17.3 nbformat-5.8.0 pyrsistent-0.19.3
