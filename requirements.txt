@@ -20,7 +20,7 @@ Flask==2.2.3
 Flask-Bootstrap==3.3.7.1
 idna==3.4
 importlib-metadata==6.6.0
-ipykernel==6.23.0
+# ipykernel==6.23.0
 ipython==8.13.2
 itsdangerous==2.1.2
 jedi==0.18.2
