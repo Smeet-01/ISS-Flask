@@ -1,2 +1,3 @@
 # ISS-Flask
-A simple web app to track the location of the ISS. Built using Flask and Dash. 
+Web App built using Flask to track the location of the ISS.
+
